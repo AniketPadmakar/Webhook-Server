@@ -16,8 +16,8 @@ app.use(cors({
 }));
 
 const SECRET_KEY = 'hyperverge_secret_key';
-const APP_ID = '1pjk71';
-const APP_KEY = 'sshfxkuemn558ohgb1v8';
+const APP_ID = '';
+const APP_KEY = '';
 
 // Authentication route (for JWT generation)
 app.get('/auth', (req, res) => {
